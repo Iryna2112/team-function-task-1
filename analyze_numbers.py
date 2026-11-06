@@ -19,7 +19,7 @@ def analyze_numbers(numbers: list) -> dict:
         }
 
     count = len(numbers)
-    even_count = sum(1 for n in numbers if n % 2 == 1)
+    even_count = sum(1 for n in numbers if n % 2 == 0)
     odd_count = count - even_count
 
     return {
