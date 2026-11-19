@@ -10,7 +10,7 @@ def analyze_numbers(numbers: list) -> dict:
         }
 
     count = len(numbers)
-    even_count = sum(1 for n in numbers if n % 4 == 0) #
+    even_count = sum(1 for n in numbers if n % 5 == 0) #
     odd_count = count - even_count
 
     return {
