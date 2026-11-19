@@ -47,3 +47,4 @@ if __name__ == "__main__":
     empty_result = analyze_numbers([])
     for key, value in empty_result.items():
         print(f'  "{key}": {value}')
+        
