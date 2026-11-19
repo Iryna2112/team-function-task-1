@@ -1,13 +1,4 @@
 def analyze_numbers(numbers: list) -> dict:
-    """
-    Аналізує список цілих чисел і повертає статистичну інформацію.
-
-    Args:
-        numbers: список цілих чисел (може бути порожнім або містити від'ємні числа)
-
-    Returns:
-        dict з ключами: count, min, max, average, even_count, odd_count
-    """
     if not numbers:
         return {
             "count": 0,
@@ -47,4 +38,3 @@ if __name__ == "__main__":
     empty_result = analyze_numbers([])
     for key, value in empty_result.items():
         print(f'  "{key}": {value}')
-        
